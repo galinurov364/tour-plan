@@ -662,8 +662,8 @@ template {
 }
 
 .starts {
-  -ms-flex-preferred-size: content;
-      flex-basis: content;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
 }
 
 .hotel-name {
