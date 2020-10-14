@@ -519,6 +519,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .hotel-info__offer {
@@ -627,8 +628,8 @@ template {
   height: 30px;
   border: none;
   cursor: pointer;
-  background-color: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 10px;
   background-color: transparent;
 }
@@ -640,7 +641,7 @@ template {
 
 .slider-button--prev {
   left: 18px;
-  background-color: url(../img/arrow-prev.svg);
+  background-image: url(../img/arrow-prev.svg);
 }
 
 @media (max-width: 1200px) {
